@@ -25,4 +25,10 @@ st.sidebar.markdown("""
 st.sidebar.selectbox('roles', ['teacher', 'student'])
 st.sidebar.button('Select')
 
-st.title('Hello Teacher')
+
+option = st.sidebar.selectbox('roles', ['teacher', 'student'])
+btn = st.button('Select')
+if btn:
+    st.title("hello" + option)
+    
+

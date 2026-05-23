@@ -12,3 +12,10 @@ st.subheader('DSMP')
 st.subheader('DAMP')
 st.subheader('DEMP')
 st.subheader('DSA')
+
+st.sidebar.title('Menu')
+st.sidebar.markdown("""
+- Home
+- About
+- Contact
+""")
